@@ -7,5 +7,5 @@ function st() {
 }
 
 function RNG(min,max){
-    document.getElementById("result").innerHTML = (Math.floor(Math.random() * (max - min) + min));
+    document.getElementById("result").innerHTML = Math.floor((Math.random() * max) + min)+1;
 }
